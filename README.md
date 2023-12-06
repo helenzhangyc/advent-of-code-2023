@@ -19,13 +19,14 @@
 
 ## Day 4: Scratchcards
 **Topics:** 1D Array Algorithm, Sorting <br>
-**Difficulty:** 1/10 (part 1 naive solution), 2/10 (part 1 sorted list approach) <br>
+**Difficulty:** 1/10 (part 1 naive solution), 2/10 (part 1 sorted list approach), 2/10 (part 2) <br>
 **My solution and thoughts:** <br>
 **Part 1:** This part can be simplified into the following problem: Find intersections between two arrays. <br>
 Naive approach: For each item in list A, iterate through list B to see if it exists in list B <br>
 Runtime: O(m * n) <br>
 Better approach: Sort lists A and B and search through them. <br>
 Runtime: Sorting: mlogm + nlogn. Find Intersection: O(m + n). Overall: O(mlogm) (assume m > n) <br>
-TODO: Is there a quicker solution? O(n)?
+TODO: Is there a quicker solution? O(n)? <br>
+**Part 2:** This part is straightforward. Just store the number of cards in an array as you go and add up at the end. Messed up indexing on the first try so I will rate it as a 2/10.
 
 
