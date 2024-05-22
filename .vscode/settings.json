@@ -1,9 +1,11 @@
 {
   "files.associations": {
+    ".fantomasignore": "ignore",
     "xstring": "cpp",
     "vector": "cpp",
     "ostream": "cpp",
     "iostream": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "utility": "cpp"
   }
 }
