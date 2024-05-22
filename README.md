@@ -30,10 +30,11 @@ TODO: Is there a quicker solution? O(n)? <br>
 **Part 2:** This part is straightforward. Just store the number of cards in an array as you go and add up at the end. Messed up indexing on the first try so I will rate it as a 2/10.
 
 ## Day 5: If You Give A Seed A Fertilizer
-**Topics:** Integer Overflow <br>
-**Difficulty:** 4/10 (part 1) <br>
+**Topics:** Integer Overflow, Range Splitting <br>
+**Difficulty:** 4/10 (part 1) 7/10 (part 2) <br>
 **Part 1:** At first I implemented maps associated with the given inputs, and then realized the ranges are too large so the map would be incredibly large so not possible. Then, I just went through all the inputs checked if the current number is in the range and calculated the destination without creating maps. Then, I realized the numbers were too large so I switched int to long long. <br>
 The question itself is not hard but since I encountered two obstacles while solving it, so I rated this part as 4/10. <br>
-TODO: can write functions to calculate the destination for each part to make the code look nicer...
+TODO: can write functions to calculate the destination for each part to make the code look nicer <br>
+**Part 2:** If we naively go through each seed in the range, the solution would run forever. Range splitting took me quite a while to debug so I gave it a 7/10.
 
 
