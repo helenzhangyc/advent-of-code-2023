@@ -37,4 +37,8 @@ The question itself is not hard but since I encountered two obstacles while solv
 TODO: can write functions to calculate the destination for each part to make the code look nicer <br>
 **Part 2:** If we naively go through each seed in the range, the solution would run forever. Range splitting took me quite a while to debug so I gave it a 7/10.
 
+## Day 6: Wait For It
+**Topics:** String <br>
+**Difficulty:** 1/10
+
 
