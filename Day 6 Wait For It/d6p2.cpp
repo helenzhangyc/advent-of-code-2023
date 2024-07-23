@@ -27,6 +27,7 @@ long long extractAndConcatenateNumbers(const std::string &str)
 
 int main()
 {
+    cout << "main";
     fstream newfile;
     newfile.open("input.txt", ios::in);
     if (newfile.is_open())
