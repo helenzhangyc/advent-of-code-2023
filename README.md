@@ -54,7 +54,8 @@ For part 2, brute force would result in a slow runtime. Need to do it smarter (c
 ## Day 9: Mirage Maintenance
 **Topics:** Math <br>
 **Difficulty:** 2/10 <br>
-Find a pattern to do it smarter.
+Find a pattern to do it smarter. <br>
+Note that for polynomials of degree $k$, the $k$-th differences will be constant.
 
 
 
