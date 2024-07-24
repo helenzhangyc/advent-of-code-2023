@@ -52,7 +52,7 @@ There are some edge cases in part 2 that took me a while to debug.
 For part 2, brute force would result in a slow runtime. Need to do it smarter (calculate lcm).
 
 ## Day 9: Mirage Maintenance
-**Topics:** Math
+**Topics:** Math <br>
 **Difficulty:** 2/10 <br>
 Find a pattern to do it smarter.
 
