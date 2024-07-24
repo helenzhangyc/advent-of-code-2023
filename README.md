@@ -39,6 +39,22 @@ TODO: can write functions to calculate the destination for each part to make the
 
 ## Day 6: Wait For It
 **Topics:** String <br>
-**Difficulty:** 1/10
+**Difficulty:** 1/10 
+
+## Day 7: Camel Cards
+**Topics:** Custom Sorting, Logic <br>
+**Difficulty:** 4/10 <br>
+There are some edge cases in part 2 that took me a while to debug.
+
+## Day 8: Haunted Wasteland
+**Topics:** Very Simple Graph Search (just left and right nodes) <br>
+**Difficulty:** 3/10 <br>
+For part 2, brute force would result in a slow runtime. Need to do it smarter (calculate lcm).
+
+## Day 9: Mirage Maintenance
+**Topics:** Math
+**Difficulty:** 2/10 <br>
+Find a pattern to do it smarter.
+
 
 
