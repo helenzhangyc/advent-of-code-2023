@@ -67,4 +67,7 @@ Note that for polynomials of degree $k$, the $k$-th differences will be constant
 ## Day 10: Pipe Maze <br>
 
 **Topics:** Graph (DFS, cycle detection, cycle length calculation) <br>
-**Difficulty:** 8/10 (I'm bad at graph) <br>
+**Difficulty:** 8/10 (Part 1) 10/10 (Part 2) (I'm bad at graph) <br>
+For Part 1, use dfs to detect cycle and calculate the length of the cycle. <br>
+For Part 2, I tried to mark the boundary points and then use flood fill algorithm to mark all the reachable tiles from boundary as visited. Finally, all the non-visited tiles will be the ones inside the cycle. Not sure why this is not working. <br>
+Then, I searched up on reddit and found that you can use shoelace formula to calculate the area of the polygon and then use pick's theorem to calculate the number of integer coordinates lie inside the polygon. The implementation is easy but I've never heard of pick's theorem before so I will give it a 10/10.
